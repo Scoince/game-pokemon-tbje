@@ -4,16 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Move {
-    private final String name;
-    private final String type;
-    private final int damage;
-    private final int accuracy;
-    private final String otherEffect;
-    private final int accuracyOfEffect;
-    private final boolean useSpStats;
-    private final int priority;
+    private String name;
+    private String type;
+    private int damage;
+    private int accuracy;
+    private String otherEffect;
+    private int accuracyOfEffect;
+    private boolean useSpStats;
+    private int priority;
     private int currentPp;
-    private final int totalPp;
+    private int totalPp;
 
     // Constructor
     public Move(String name, String type, int damage, int accuracy, String otherEffect, int accuracyOfEffect, boolean useSpStats, int priority, int currentPp, int totalPp) {

@@ -9,7 +9,7 @@ public class Pokemon {
     private int baseHp, baseAttack, baseDefense, baseSpAtk, baseSpDef, baseSpeed;
     private int currentHp, currentMaxHp, currentAttack, currentDefense, currentSpAtk, currentSpDef, currentSpeed;
     private List<Move> moves;  // List of moves currently available to this Pokemon
-    private final boolean shiny;
+    private boolean shiny;
     private String statusCondition; // None, Sleep, Paralysis, Poison, Burn
     int attackStage, defenseStage, spAtkStage, spDefStage, speedStage;
     private boolean isFlinched = false;
