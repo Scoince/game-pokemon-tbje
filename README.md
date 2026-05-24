@@ -17,7 +17,7 @@
 
 ## Running a Release .jar
 - Download the latest release from the releases section on the repo.
-- Make sure you have Java 24 installed before trying to run the jar.
+- Make sure you have Java 25 installed before trying to run the jar.
 - Before moving forward, put the downloaded jar somewhere you're happy with in your filesystem.
 - Open your terminal:
 ```bash
@@ -35,7 +35,7 @@ Open your terminal:
 cd <where/you/keep/java/projects>
 git clone https://github.com/zachMahan64/pokemon-tbje.git
 # make sure you have the latest versions of Java and Maven before proceeding:
-java --version # should say >= Java 24
+java --version # should say >= Java 25
 mvn --version  # ^ same
 cd pokemon-tbje
 mvn clean package
@@ -75,7 +75,7 @@ Tips:
 ## Platform Support
 - Works best on **Mac/Linux** terminals.
 - Windows' terminal may clobber the visuals a bit due to character spacing issues. Try using MSYS2 on Windows!
-- Potential build issues: the build will fail if Java or Maven are not pointing to open-jdk-24. Ensure Java 24 is installed on your computer.
+- Potential build issues: the build will fail if Java or Maven are not pointing to open-jdk-25. Ensure Java 25 is installed on your computer.
 
 ## Notes
 - This was my first large coding project. The codebase isn't great (in quite a few places). A lot of it has been painstakingly refactored, though.
